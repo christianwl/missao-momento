@@ -225,6 +225,9 @@ h5{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #122C34;
     padding: 44px 0;
 }
