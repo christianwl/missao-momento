@@ -1,135 +1,203 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Criação de uma landing page de uma empresa fictícia.">
-    <meta name="author" content="christianwl">
+    <meta
+      name="description"
+      content="Criação de uma landing page de uma empresa fictícia."
+    />
+    <meta name="author" content="christianwl" />
 
     <title>PlayQuest</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <img class="logo" src="./img/Logo.svg" alt="Logo do Site em formato de controle">
-            <h1>PlayQuest</h1>
-        </nav>
-        <h2>Desbrave o mundo real, e transforme o dia a dia em uma aventura!</h2>
+      <nav>
+        <img
+          class="logo"
+          src="./img/Logo.svg"
+          alt="Logo do Site em formato de controle"
+        />
+        <h1>PlayQuest</h1>
+      </nav>
+      <h2>Desbrave o mundo real, e transforme o dia a dia em uma aventura!</h2>
     </header>
     <main>
-        <section class="container__principal">
-            <article class="principal__conteudo">
-                <h3>Conheça o PlayQuest</h3>
-                <img class="principal__imagem" src="./img/ImagemMain.svg"
-                    alt="Foto de um celular em um fundo brilhante e roxo">
-                <p>Na PlayQuest, acreditamos que a vida é uma jornada emocionante, cheia de desafios e oportunidades.
-                    Nossa missão é gamificar o cotidiano, tornando cada tarefa, seja no trabalho ou em casa, uma
-                    aventura empolgante. Queremos inspirar as pessoas a abraçarem a mentalidade de um jogador,
-                    enfrentando obstáculos com criatividade, colaboração e diversão.</p>
-            </article>
-        </section>
-        <section class="container__valores">
-            <article>
-                <p class="title">Colaboração Épica</p>
-                <p>Acreditamos que as melhores aventuras são compartilhadas. Na PlayQuest, incentivamos a colaboração
-                    entre colegas, amigos e familiares. Juntos, podemos superar qualquer desafio.</p>
-                <img src="./img/colaboracao.png" alt="Foto de crianças brincando e se ajudando">
-            </article>
-            <article>
-                <p class="title">Recompensas Significativas</p>
-                <p>Valorizamos pequenas vitórias tanto quanto as grandes. Cada conquista merece reconhecimento e
-                    recompensas que inspirem a próxima etapa da jornada.</p>
-                <img src="./img/premio.png" alt="Imagem de uma medalha">
-            </article>
-            <article>
-                <p class="title">Equilíbrio e Saúde</p>
-                <p>A gamificação não deve comprometer o bem-estar. Promovemos um equilíbrio saudável entre trabalho,
-                    lazer e descanso. Afinal, até os heróis precisam de uma boa noite de sono!</p>
-                <img src="./img/bemEstar.png" alt="Pessoa se alongando, remetendo a cuidados a saúde">
-            </article>
-        </section>
-        <section class="container__programas">
-            <article>
-                <p class="titulo__programa">Programa de Formação de Desenvolvedores de Gamificação:</p>
-                <p>Este programa visa capacitar desenvolvedores e entusiastas interessados em gamificação. Ele abrange
-                    técnicas, estratégias e metodologias para incorporar elementos de jogos em contextos do mundo real.
-                    <br><br>
-                    <span>Formação de Desenvolvedores:</span> Oferecer cursos e workshops para desenvolvedores,
-                    abrangendo conceitos
-                    fundamentais de gamificação, design de mecânicas de jogo e integração com aplicativos e sistemas.
-                    <br><br>
-                    <span>Aplicação em Educação:</span> Capacitar educadores a utilizar a gamificação como ferramenta de
-                    ensino nas escolas. Isso inclui métodos para tornar o aprendizado mais envolvente e motivador.
-                </p>
-            </article>
-            <article>
-                <p class="titulo__programa">Gameficação para Sustentabilidade</p>
-                <p>Descrição: Este programa combina diversão e consciência ambiental. Ele incentiva comportamentos
-                    sustentáveis por meio de elementos de jogos.
-                    <br><br>
-                    <span>Desafios Semanais:</span> Os participantes enfrentam desafios relacionados à sustentabilidade,
-                    como reduzir o consumo de plástico ou economizar água.
-                    <br><br>
-                    <span>Recompensas Virtuais:</span> Conquistas virtuais são concedidas por ações sustentáveis, como
-                    usar transporte público ou reciclar.
-                </p>
-            </article>
-        </section>
-        <section class="container__forms">
-            <form class="formulario">
-                <h4>Entre em contato</h4>
-                <input type="text" name="nome" id="nome" placeholder="Seu nome">
-                <input type="email" name="email" id="email" placeholder="Seu e-mail">
-                <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem" required="" cols="10"
-                    rows="10"></textarea>
-                <input class="botao__formulario" type="submit" value="Enviar">
-            </form>
-        </section>
-        <section>
-            <div class="avaliacao">
-                <h5>Avaliações</h5>
-                <span>
-                    <div>
-                        <img src="./img/lara.png" alt="Foto do usuario">
-                        <p><span class="usuarios">Lara Silva:</span> Designer de Experiência do Usuário</p>
-                    </div>
-                    <p>"Trabalhar na PlayQuest é como estar em um jogo de aventura constante! Cada projeto é uma nova
-                        fase, e eu adoro criar interfaces que fazem os usuários se sentirem como heróis. A equipe aqui é
-                        incrível, sempre colaborando e trazendo ideias inovadoras. A PlayQuest realmente transforma o
-                        cotidiano em algo épico!"</p>
-                </span>
-
-                <span>
-                    <div>
-                        <img src="./img/pedro.png" alt="Foto do usuario">
-                        <p><span class="usuarios">Pedro Almeida:</span> Engenheiro de Software de Gamificação</p>
-                    </div>
-                    <p>"Como um amante de jogos, encontrar um emprego na PlayQuest foi um sonho realizado. Desenvolver
-                        sistemas de gamificação para tarefas diárias é desafiador e gratificante. E a melhor parte? Ver
-                        as pessoas se divertindo enquanto usam nossos aplicativos. É como se estivéssemos criando poções
-                        mágicas para tornar a vida mais emocionante!"</p>
-                </span>
-                <span>
-                    <div>
-                        <img src="./img/sofia.png" alt="Foto do usuario">
-                        <p><span class="usuarios">Sofia Costa:</span> Coach de Resiliência Divertida</p>
-                    </div>
-                    <p>"Na PlayQuest, aprendemos que a resiliência pode ser divertida. Quando enfrentamos obstáculos,
-                        não ficamos desanimados; em vez disso, nos unimos como uma equipe e encontramos maneiras
-                        criativas de superá-los. É uma comunidade inspiradora, e estou orgulhosa de fazer parte dela.
-                        Vamos lá, a próxima missão nos espera!”"</p>
-                </span>
+      <section class="container__principal">
+        <article class="principal__conteudo">
+          <h3>Conheça o PlayQuest</h3>
+          <img
+            class="principal__imagem"
+            src="./img/ImagemMain.svg"
+            alt="Foto de um celular em um fundo brilhante e roxo"
+          />
+          <p>
+            Na PlayQuest, acreditamos que a vida é uma jornada emocionante,
+            cheia de desafios e oportunidades. Nossa missão é gamificar o
+            cotidiano, tornando cada tarefa, seja no trabalho ou em casa, uma
+            aventura empolgante. Queremos inspirar as pessoas a abraçarem a
+            mentalidade de um jogador, enfrentando obstáculos com criatividade,
+            colaboração e diversão.
+          </p>
+        </article>
+      </section>
+      <section class="container__valores">
+        <article>
+          <p class="title">Colaboração Épica</p>
+          <p>
+            Acreditamos que as melhores aventuras são compartilhadas. Na
+            PlayQuest, incentivamos a colaboração entre colegas, amigos e
+            familiares. Juntos, podemos superar qualquer desafio.
+          </p>
+          <img
+            src="./img/colaboracao.png"
+            alt="Foto de crianças brincando e se ajudando"
+          />
+        </article>
+        <article>
+          <p class="title">Recompensas Significativas</p>
+          <p>
+            Valorizamos pequenas vitórias tanto quanto as grandes. Cada
+            conquista merece reconhecimento e recompensas que inspirem a próxima
+            etapa da jornada.
+          </p>
+          <img src="./img/premio.png" alt="Imagem de uma medalha" />
+        </article>
+        <article>
+          <p class="title">Equilíbrio e Saúde</p>
+          <p>
+            A gamificação não deve comprometer o bem-estar. Promovemos um
+            equilíbrio saudável entre trabalho, lazer e descanso. Afinal, até os
+            heróis precisam de uma boa noite de sono!
+          </p>
+          <img
+            src="./img/bemEstar.png"
+            alt="Pessoa se alongando, remetendo a cuidados a saúde"
+          />
+        </article>
+      </section>
+      <section class="container__programas">
+        <article>
+          <p class="titulo__programa">
+            Programa de Formação de Desenvolvedores de Gamificação:
+          </p>
+          <p>
+            Este programa visa capacitar desenvolvedores e entusiastas
+            interessados em gamificação. Ele abrange técnicas, estratégias e
+            metodologias para incorporar elementos de jogos em contextos do
+            mundo real. <br /><br />
+            <span>Formação de Desenvolvedores:</span> Oferecer cursos e
+            workshops para desenvolvedores, abrangendo conceitos fundamentais de
+            gamificação, design de mecânicas de jogo e integração com
+            aplicativos e sistemas. <br /><br />
+            <span>Aplicação em Educação:</span> Capacitar educadores a utilizar
+            a gamificação como ferramenta de ensino nas escolas. Isso inclui
+            métodos para tornar o aprendizado mais envolvente e motivador.
+          </p>
+        </article>
+        <article>
+          <p class="titulo__programa">Gameficação para Sustentabilidade</p>
+          <p>
+            Descrição: Este programa combina diversão e consciência ambiental.
+            Ele incentiva comportamentos sustentáveis por meio de elementos de
+            jogos. <br /><br />
+            <span>Desafios Semanais:</span> Os participantes enfrentam desafios
+            relacionados à sustentabilidade, como reduzir o consumo de plástico
+            ou economizar água. <br /><br />
+            <span>Recompensas Virtuais:</span> Conquistas virtuais são
+            concedidas por ações sustentáveis, como usar transporte público ou
+            reciclar.
+          </p>
+        </article>
+      </section>
+      <section class="container__forms">
+        <form class="formulario">
+          <h4>Entre em contato</h4>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Seu e-mail"
+          />
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Sua Mensagem"
+            required=""
+            cols="10"
+            rows="10"
+          ></textarea>
+          <input class="botao__formulario" type="submit" value="Enviar" />
+        </form>
+      </section>
+      <section>
+        <div class="avaliacao">
+          <h5>Avaliações</h5>
+          <span>
+            <div>
+              <img src="./img/lara.png" alt="Foto do usuario" />
+              <p>
+                <span class="usuarios">Lara Silva:</span> Designer de
+                Experiência do Usuário
+              </p>
             </div>
-        </section>
+            <p>
+              "Trabalhar na PlayQuest é como estar em um jogo de aventura
+              constante! Cada projeto é uma nova fase, e eu adoro criar
+              interfaces que fazem os usuários se sentirem como heróis. A equipe
+              aqui é incrível, sempre colaborando e trazendo ideias inovadoras.
+              A PlayQuest realmente transforma o cotidiano em algo épico!"
+            </p>
+          </span>
+
+          <span>
+            <div>
+              <img src="./img/pedro.png" alt="Foto do usuario" />
+              <p>
+                <span class="usuarios">Pedro Almeida:</span> Engenheiro de
+                Software de Gamificação
+              </p>
+            </div>
+            <p>
+              "Como um amante de jogos, encontrar um emprego na PlayQuest foi um
+              sonho realizado. Desenvolver sistemas de gamificação para tarefas
+              diárias é desafiador e gratificante. E a melhor parte? Ver as
+              pessoas se divertindo enquanto usam nossos aplicativos. É como se
+              estivéssemos criando poções mágicas para tornar a vida mais
+              emocionante!"
+            </p>
+          </span>
+          <span>
+            <div>
+              <img src="./img/sofia.png" alt="Foto do usuario" />
+              <p>
+                <span class="usuarios">Sofia Costa:</span> Coach de Resiliência
+                Divertida
+              </p>
+            </div>
+            <p>
+              "Na PlayQuest, aprendemos que a resiliência pode ser divertida.
+              Quando enfrentamos obstáculos, não ficamos desanimados; em vez
+              disso, nos unimos como uma equipe e encontramos maneiras criativas
+              de superá-los. É uma comunidade inspiradora, e estou orgulhosa de
+              fazer parte dela. Vamos lá, a próxima missão nos espera!”"
+            </p>
+          </span>
+        </div>
+      </section>
     </main>
     <footer>
-        <span>&copy; 2024 christianwl</span>
-        <p>Todas as imagens são marcas registradas dos seus respectivos proprietários.</p>
+      <span>&copy; 2024 christianwl</span>
+      <p>
+        Todas as imagens são marcas registradas dos seus respectivos
+        proprietários.
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
