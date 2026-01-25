@@ -25,3 +25,11 @@ Este site foi desenvolvido em **2024** como parte das atividades do programa Pro
 * `index.html`: Estrutura de conteúdo da página.
 * `style.css`: Estilização completa, incluindo variáveis de cores e regras de responsividade.
 * `/img`: Pasta contendo ícones, logo e fotos dos usuários.
+
+## Autor
+
+<div>
+  <a href="https://github.com/christianwl">
+    <img src="https://contrib.rocks/image?repo=christianwl/missao-momento" alt="Autor do Portfolio"/>
+  </a>
+</div>
